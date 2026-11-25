@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 DATABASE = "shop.db"
-
+#thi is db
 
 def get_connection():
     connection = sqlite3.connect(DATABASE)
