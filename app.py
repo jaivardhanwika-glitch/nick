@@ -11,7 +11,7 @@ def get_connection():
     connection = sqlite3.connect(DATABASE)
     connection.row_factory = sqlite3.Row
     return connection
-
+main comment
 
 def create_tables():
     connection = get_connection()
